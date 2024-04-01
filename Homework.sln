@@ -8,6 +8,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Pointers", "Pointers\Pointe
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ClassesOne", "ClassesOne\ClassesOne.vcxproj", "{201AE38A-923D-4E65-A9AB-46A86FB7C635}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ClassesTwo", "ClassesTwo\ClassesTwo.vcxproj", "{0B62B169-7D85-4EAC-80DA-04327D42F0C0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -48,5 +50,13 @@ Global
 		{201AE38A-923D-4E65-A9AB-46A86FB7C635}.Release|Win32.Build.0 = Release|Win32
 		{201AE38A-923D-4E65-A9AB-46A86FB7C635}.Release|x64.ActiveCfg = Release|x64
 		{201AE38A-923D-4E65-A9AB-46A86FB7C635}.Release|x64.Build.0 = Release|x64
+		{0B62B169-7D85-4EAC-80DA-04327D42F0C0}.Debug|Win32.ActiveCfg = Debug|Win32
+		{0B62B169-7D85-4EAC-80DA-04327D42F0C0}.Debug|Win32.Build.0 = Debug|Win32
+		{0B62B169-7D85-4EAC-80DA-04327D42F0C0}.Debug|x64.ActiveCfg = Debug|x64
+		{0B62B169-7D85-4EAC-80DA-04327D42F0C0}.Debug|x64.Build.0 = Debug|x64
+		{0B62B169-7D85-4EAC-80DA-04327D42F0C0}.Release|Win32.ActiveCfg = Release|Win32
+		{0B62B169-7D85-4EAC-80DA-04327D42F0C0}.Release|Win32.Build.0 = Release|Win32
+		{0B62B169-7D85-4EAC-80DA-04327D42F0C0}.Release|x64.ActiveCfg = Release|x64
+		{0B62B169-7D85-4EAC-80DA-04327D42F0C0}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 EndGlobal
