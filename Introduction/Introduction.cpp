@@ -1,5 +1,30 @@
 #include <iostream>
 
+/*
+- The difference between managed and unmanaged programming languages
+- What Just In Time compilation is
+- When a C++ program is compiled
+- Where the starting point of a C++ program is
+- How to create a new empty C++ project
+- How to create a basic program 
+- How to print text to the console
+- How to create a variable
+- That a variable should be initialized 
+- How to create a function
+- Where to place a function
+- How to call a function
+- How to make sure a function can return a value
+- How to give one or more variables to a function as input
+- How to create an array
+- How to fill an array
+- How to reach a certain element in an array
+- How to give an array to a function as input
+- How to do basic arithmetic operations
+- How to make a for-loop
+- How to make a while-loop
+- How to make a do-while-loop
+*/
+
 int sum(int x, int y)
 {
     return x + y;

@@ -7,6 +7,27 @@
 #include "Exercise4.h"
 #include "Exercise5.h"
 
+/*
+- How to create a multidimensional array (statically)
+- How to use a multidimensional array as input for a function
+- How a multidimensional array is stored in memory
+- The difference between a c-string and a string
+- That \0 terminates a c-string
+- That c-strings have a fixed length whilst strings do not
+- The difference between call by value and call by reference
+- How to pass arguments to a function using call by value or call by reference
+- What a stream is
+- What the source and target location of a stream can be
+- How to create a stream
+- How to open/close a stream
+- How to read/write a file
+- The difference between text files and binary files
+- How to create a struct
+- How to access elements in a struct
+- How to read/write structs from/to a file
+ */
+
+
 int main(int argc, char* argv[])
 {
     // Exercise 1:
