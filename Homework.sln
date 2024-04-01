@@ -6,6 +6,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "StreamsStrings", "StreamsSt
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Pointers", "Pointers\Pointers.vcxproj", "{6CAC717B-1956-4C87-92F9-72EF355C5B5D}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ClassesOne", "ClassesOne\ClassesOne.vcxproj", "{201AE38A-923D-4E65-A9AB-46A86FB7C635}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -38,5 +40,13 @@ Global
 		{6CAC717B-1956-4C87-92F9-72EF355C5B5D}.Release|Win32.Build.0 = Release|Win32
 		{6CAC717B-1956-4C87-92F9-72EF355C5B5D}.Release|x64.ActiveCfg = Release|x64
 		{6CAC717B-1956-4C87-92F9-72EF355C5B5D}.Release|x64.Build.0 = Release|x64
+		{201AE38A-923D-4E65-A9AB-46A86FB7C635}.Debug|Win32.ActiveCfg = Debug|Win32
+		{201AE38A-923D-4E65-A9AB-46A86FB7C635}.Debug|Win32.Build.0 = Debug|Win32
+		{201AE38A-923D-4E65-A9AB-46A86FB7C635}.Debug|x64.ActiveCfg = Debug|x64
+		{201AE38A-923D-4E65-A9AB-46A86FB7C635}.Debug|x64.Build.0 = Debug|x64
+		{201AE38A-923D-4E65-A9AB-46A86FB7C635}.Release|Win32.ActiveCfg = Release|Win32
+		{201AE38A-923D-4E65-A9AB-46A86FB7C635}.Release|Win32.Build.0 = Release|Win32
+		{201AE38A-923D-4E65-A9AB-46A86FB7C635}.Release|x64.ActiveCfg = Release|x64
+		{201AE38A-923D-4E65-A9AB-46A86FB7C635}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 EndGlobal
