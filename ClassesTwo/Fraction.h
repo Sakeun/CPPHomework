@@ -12,8 +12,19 @@ public:
     Fraction(const int, const int);
 
     std::string toString();
-    friend Fraction& operator*(const Fraction, const Fraction);
+    Fraction& operator=(const Fraction&);
+    friend Fraction& operator*(const Fraction&, const Fraction&);
+    friend Fraction& operator+(const Fraction&, const Fraction&);
+    friend Fraction& operator-(const Fraction&, const Fraction&);
+    friend Fraction& operator/(const Fraction&, const Fraction&);
+    Fraction& operator+=(const Fraction&);
+    Fraction& operator*=(const Fraction&);
+    Fraction& operator/=(const Fraction&);
+    Fraction& operator-=(const Fraction&);
 };
 
-Fraction& operator*(const Fraction, const Fraction);
+Fraction& operator*(const Fraction&, const Fraction&);
 std::ostream& operator<<(std::ostream&, Fraction&);
+Fraction& operator+(const Fraction&, const Fraction&);
+Fraction& operator-(const Fraction&, const Fraction&);
+Fraction& operator/(const Fraction&, const Fraction&);

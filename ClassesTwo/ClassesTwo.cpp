@@ -34,6 +34,8 @@ int main(int argc, char* argv[])
     std::cout << s1.toupper().toString() << std::endl;
     s2 = s1 + " More";
     std::cout << s2.tolower().toString() << std::endl;
+
+    // Exercise 2:
     
     return 0;
 }

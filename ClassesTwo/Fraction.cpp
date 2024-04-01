@@ -22,13 +22,28 @@ std::string Fraction::toString()
     return stream.str();
 }
 
-Fraction& operator*(const Fraction f1, const Fraction f2)
+Fraction& operator*(const Fraction& f1, const Fraction& f2)
 {
     Fraction* f = new Fraction();
     f->numerator = f1.numerator * f2.numerator;
     f->denumerator = f2.denumerator * f1.denumerator;
     return *f;
 }
+
+Fraction& Fraction::operator=(const Fraction& f1)
+{
+    numerator = f1.numerator;
+    denumerator = f1.denumerator;
+    return *this;
+}
+
+Fraction& Fraction::operator*=(const Fraction& f1)
+{
+    numerator *= f1.numerator;
+    denumerator *= f1.denumerator;
+    return *this;
+}
+
 
 std::ostream& operator<<(std::ostream& os, Fraction& f)
 {
