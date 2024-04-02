@@ -10,6 +10,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ClassesOne", "ClassesOne\Cl
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ClassesTwo", "ClassesTwo\ClassesTwo.vcxproj", "{0B62B169-7D85-4EAC-80DA-04327D42F0C0}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Templates", "Templates\Templates.vcxproj", "{943F7FCD-4202-424B-93E8-C127C090E8EC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -58,5 +60,13 @@ Global
 		{0B62B169-7D85-4EAC-80DA-04327D42F0C0}.Release|Win32.Build.0 = Release|Win32
 		{0B62B169-7D85-4EAC-80DA-04327D42F0C0}.Release|x64.ActiveCfg = Release|x64
 		{0B62B169-7D85-4EAC-80DA-04327D42F0C0}.Release|x64.Build.0 = Release|x64
+		{943F7FCD-4202-424B-93E8-C127C090E8EC}.Debug|Win32.ActiveCfg = Debug|Win32
+		{943F7FCD-4202-424B-93E8-C127C090E8EC}.Debug|Win32.Build.0 = Debug|Win32
+		{943F7FCD-4202-424B-93E8-C127C090E8EC}.Debug|x64.ActiveCfg = Debug|x64
+		{943F7FCD-4202-424B-93E8-C127C090E8EC}.Debug|x64.Build.0 = Debug|x64
+		{943F7FCD-4202-424B-93E8-C127C090E8EC}.Release|Win32.ActiveCfg = Release|Win32
+		{943F7FCD-4202-424B-93E8-C127C090E8EC}.Release|Win32.Build.0 = Release|Win32
+		{943F7FCD-4202-424B-93E8-C127C090E8EC}.Release|x64.ActiveCfg = Release|x64
+		{943F7FCD-4202-424B-93E8-C127C090E8EC}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 EndGlobal
