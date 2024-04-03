@@ -14,6 +14,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Templates", "Templates\Temp
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BitOperators", "BitOperators\BitOperators.vcxproj", "{0A979793-FD1F-41F2-82BD-56EF984DB030}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DoubleList", "DoubleList\DoubleList.vcxproj", "{354FBA4F-E2AB-45FA-A8E7-03427CA02116}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -78,5 +80,13 @@ Global
 		{0A979793-FD1F-41F2-82BD-56EF984DB030}.Release|Win32.Build.0 = Release|Win32
 		{0A979793-FD1F-41F2-82BD-56EF984DB030}.Release|x64.ActiveCfg = Release|x64
 		{0A979793-FD1F-41F2-82BD-56EF984DB030}.Release|x64.Build.0 = Release|x64
+		{354FBA4F-E2AB-45FA-A8E7-03427CA02116}.Debug|Win32.ActiveCfg = Debug|Win32
+		{354FBA4F-E2AB-45FA-A8E7-03427CA02116}.Debug|Win32.Build.0 = Debug|Win32
+		{354FBA4F-E2AB-45FA-A8E7-03427CA02116}.Debug|x64.ActiveCfg = Debug|x64
+		{354FBA4F-E2AB-45FA-A8E7-03427CA02116}.Debug|x64.Build.0 = Debug|x64
+		{354FBA4F-E2AB-45FA-A8E7-03427CA02116}.Release|Win32.ActiveCfg = Release|Win32
+		{354FBA4F-E2AB-45FA-A8E7-03427CA02116}.Release|Win32.Build.0 = Release|Win32
+		{354FBA4F-E2AB-45FA-A8E7-03427CA02116}.Release|x64.ActiveCfg = Release|x64
+		{354FBA4F-E2AB-45FA-A8E7-03427CA02116}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 EndGlobal
