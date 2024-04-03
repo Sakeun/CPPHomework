@@ -54,9 +54,27 @@ std::string BST<T>::traverse(Node<T>* node)
     return os.str();
 }
 
-
 template <typename T>
 BST<T>::~BST()
 {
+    if(root == nullptr)
+        return;
+    Node<T>* n = root;
+    DeleteBranch(n->left);
+    DeleteBranch(n->right);
+    delete n;
+}
+
+template <typename T>
+void BST<T>::DeleteBranch(Node<T>* node)
+{
+    if(node == nullptr)
+        return;
     
+    if(node->left != nullptr)
+        DeleteBranch(node->left);
+    if(node->right != nullptr)
+        DeleteBranch(node->right);
+
+    delete node;
 }

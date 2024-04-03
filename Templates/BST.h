@@ -19,6 +19,7 @@ private:
 public:
     BST();
     ~BST();
+    void DeleteBranch(Node<T>* node);
     void insert(T val);
     void traverse();
 };
