@@ -69,5 +69,22 @@ int main(int argc, char* argv[])
     Exercise5::SavePlayerStates(States);
     std::cout << "loading states..." << std::endl;
     Exercise5::LoadPlayerStates();
+
+    // cstring practices:
+    char str[10];
+    std::cout << strlen(str) << std::endl;
+    strcpy_s(str, "Copy");
+    std::cout << str << std::endl;
+    std::cout << strlen(str) << std::endl;
+    strcat_s(str, "Add");
+    std::cout << str << std::endl;
+    std::cout << strlen(str) << std::endl;
+    strcpy_s(str, "CopyAgain");
+    std::cout << str << std::endl;
+    std::cout << strlen(str) << std::endl;
+    std::cout << "Compare CopyAgain to:" << std::endl;
+    std::cout << "Copy: " << strcmp(str, "Copy") << std::endl;
+    std::cout << "CopyAgain: " << strcmp(str, "CopyAgain") << std::endl;
+    std::cout << "TenLetters: " << strcmp(str, "TenLetters") << std::endl;
     return 0;
 }
