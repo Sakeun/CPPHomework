@@ -3,7 +3,14 @@
 
 #include "Cipher.h"
 #include "Field.h"
+#include "Tips.h"
 #include "Unit.h"
+
+/*
+- The working of the bit operators: ~ & | ^ << >>
+- The principles of flags and masks to store information in a part of a byte
+- How to read command line arguments
+*/
 
 // Example to print bits, just in case :)
 void printChar(char c, int len) {
@@ -22,6 +29,11 @@ int main(int argc, char* argv[])
     f.print();
     f.set_resource();
     f.set_terrain(Field::Stones);
+    f.print();
+    f.set_terrain(Field::Sand);
+    f.print();
+    f.set_resource();
+    f.set_terrain(Field::Grass);
     f.print();
     
     // Exercise 2:
@@ -44,6 +56,12 @@ int main(int argc, char* argv[])
     printChar(bits[0], 7);
     printChar(bits[1], 7);
     printChar(bits[2], 7);
+
+    // Tips:
+    Tips tip;
+    tip.operator_and();
+    tip.operator_not();
+    tip.operator_xor();
 
     return 0;
 }

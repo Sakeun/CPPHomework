@@ -21,7 +21,11 @@ public:
         Stones,
         Water
     };
-    
+
+    bool has_road();
+    void make_road();
+    bool clear_road();
+    bool mine_allowed();
     void set_resource();
     bool has_resource();
     void set_terrain(Terrain_type t);

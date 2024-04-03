@@ -157,11 +157,13 @@
     <ClCompile Include="BitOperators.cpp" />
     <ClCompile Include="Cipher.cpp" />
     <ClCompile Include="Field.cpp" />
+    <ClCompile Include="Tips.cpp" />
     <ClCompile Include="Unit.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Cipher.h" />
     <ClInclude Include="Field.h" />
+    <ClInclude Include="Tips.h" />
     <ClInclude Include="Unit.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

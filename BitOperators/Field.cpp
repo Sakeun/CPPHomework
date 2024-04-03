@@ -14,16 +14,17 @@ bool Field::has_resource()
 
 bool Field::extraction_allowed()
 {
-    return ((game & Sand || game & Stones) && game & game) != 0;
+    Terrain_type terrain = get_terrain();
+    return ((terrain == Sand || terrain == Stones) && has_resource()) != 0;
 }
 
 void Field::set_terrain(Terrain_type t)
 {
     /* 00 = Grass
- * 10 = Sand
- * 01 = Stones
- * 11 = Water
- */
+     * 10 = Sand
+     * 01 = Stones
+     * 11 = Water
+     */
     unsigned char terrain_value = 0;
     switch(t)
     {
@@ -49,14 +50,13 @@ void Field::set_terrain(Terrain_type t)
 
 Field::Terrain_type Field::get_terrain()
 {
-    const unsigned char terrain = game;
-    if(terrain == 0b00)
+    if((game & terrain_mask) == 0b00 << 6)
         return Grass;
-    if(terrain == 0b10)
+    if((game & terrain_mask) == 0b10 << 6)
         return Sand;
-    if(terrain == 0b01)
+    if((game & terrain_mask) == 0b01 << 6)
         return Stones;
-    if(terrain == 0b11)
+    if((game & terrain_mask) == 0b11 << 6)
         return Water;
 
     return Grass;
