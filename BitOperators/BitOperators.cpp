@@ -35,18 +35,21 @@ int main(int argc, char* argv[])
     f.set_resource();
     f.set_terrain(Field::Grass);
     f.print();
-    
+
+    std::cout << std::endl;
     // Exercise 2:
     Unit u;
-    u.setPlayerID(24);
-    std::cout << "Player ID: " << u.getPlayerID() << std::endl;
+    u.setPlayerID(0b11000);
+    std::cout << "Player ID: " << unsigned(u.getPlayerID()) << std::endl;
 
+    std::cout << std::endl;
     // Exercise 3:
     Cipher cipher;
     char* story = new char[1024]("hottentottententententoonstelling");
     cipher.de_cipher(story, '%');
     cipher.de_cipher(story, new char[10]("abcdefg"), 7);
 
+    std::cout << std::endl;
     // Printing chars:
     unsigned char* bits = new unsigned char[]
     {
@@ -57,6 +60,7 @@ int main(int argc, char* argv[])
     printChar(bits[1], 7);
     printChar(bits[2], 7);
 
+    std::cout << std::endl;
     // Tips:
     Tips tip;
     tip.operator_and();
