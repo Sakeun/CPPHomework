@@ -71,5 +71,6 @@ int main(int argc, char* argv[])
     std::cout << typeid(y).name() << ": " << y << std::endl;
     auto z = FunctionTemplate::add(std::string("a"), std::string("b"));
     std::cout << typeid(z).name() << ": " << z << std::endl;
+    
     return 0;
 }

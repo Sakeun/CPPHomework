@@ -12,6 +12,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ClassesTwo", "ClassesTwo\Cl
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Templates", "Templates\Templates.vcxproj", "{943F7FCD-4202-424B-93E8-C127C090E8EC}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BitOperators", "BitOperators\BitOperators.vcxproj", "{0A979793-FD1F-41F2-82BD-56EF984DB030}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -68,5 +70,13 @@ Global
 		{943F7FCD-4202-424B-93E8-C127C090E8EC}.Release|Win32.Build.0 = Release|Win32
 		{943F7FCD-4202-424B-93E8-C127C090E8EC}.Release|x64.ActiveCfg = Release|x64
 		{943F7FCD-4202-424B-93E8-C127C090E8EC}.Release|x64.Build.0 = Release|x64
+		{0A979793-FD1F-41F2-82BD-56EF984DB030}.Debug|Win32.ActiveCfg = Debug|Win32
+		{0A979793-FD1F-41F2-82BD-56EF984DB030}.Debug|Win32.Build.0 = Debug|Win32
+		{0A979793-FD1F-41F2-82BD-56EF984DB030}.Debug|x64.ActiveCfg = Debug|x64
+		{0A979793-FD1F-41F2-82BD-56EF984DB030}.Debug|x64.Build.0 = Debug|x64
+		{0A979793-FD1F-41F2-82BD-56EF984DB030}.Release|Win32.ActiveCfg = Release|Win32
+		{0A979793-FD1F-41F2-82BD-56EF984DB030}.Release|Win32.Build.0 = Release|Win32
+		{0A979793-FD1F-41F2-82BD-56EF984DB030}.Release|x64.ActiveCfg = Release|x64
+		{0A979793-FD1F-41F2-82BD-56EF984DB030}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 EndGlobal
